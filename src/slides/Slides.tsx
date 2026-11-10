@@ -611,9 +611,7 @@ function GoogleSetup() {
         <div>Minha aplicação · Desenvolvimento</div>
         <label>URIs de redirecionamento autorizados</label>
         <div className="callback-uri">
-          http://localhost:8000/
-          <br />
-          auth/google/callback
+          http://localhost:8000/auth/google/callback
         </div>
         <p>
           <ShieldCheck size={17} /> HTTPS em produção. URI deve corresponder ao
